@@ -1,6 +1,10 @@
 name: Nasse Biology - GitHub Pages
 
 on:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
   push:
     branches: [main]
   workflow_dispatch:
